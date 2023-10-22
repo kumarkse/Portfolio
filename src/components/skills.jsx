@@ -54,7 +54,7 @@ const Skills = ({data, skillTitle}) => {
           margin: 15vh 0 5vh -3vh;
           letter-spacing: 2px;
           color: rgba(30, 165, 165, 0.721);
-          font-size: calc(0.7rem + 0.6vw);
+          font-size: calc(0.8rem + 0.6vw);
         }
         #skills{
           width: 50%;

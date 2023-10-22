@@ -10,7 +10,7 @@ const DropdownMenu = (props) => {
                 {`
                   .fade-in {
                     opacity: 0;
-                    animation: fade-in 0.5s ease forwards;
+                    animation: fade-in 10s ease forwards;
                   }
                   
                   @keyframes fade-in {
@@ -24,6 +24,7 @@ const DropdownMenu = (props) => {
                   
                   .active{
                     color: rgb(0, 172, 172);
+                    
                   }
 
                   .nav-link:hover{
@@ -31,7 +32,7 @@ const DropdownMenu = (props) => {
                   }
                 `}
             </style>
-                <div className='d-flex justify-content-end d-block d-xxl-none  me-4 me-lg-5' style={{marginTop: '-1vh', animation: 'appear 2s'}}>
+                <div className='d-flex justify-content-end d-block d-xxl-none  me-4 me-lg-5' style={{marginTop: '-1vh', animation: 'appear 0.1s'}}>
                 <Hamburger rounded size={25} color="teal"  toggled={isOpen} toggle={setOpen} />
                 </div>
                 {isOpen ? (
@@ -53,16 +54,16 @@ const DropdownMenu = (props) => {
                       </a>
                 </li>
 
-                {/* <li className="nav-item">
+                <li className="nav-item">
                 <a href="#projects" className={`nav-link mt-3 mt-lg-5 fade-in ${props.activeLink === 'projects' ? 'active' : ''}`} style={{ animationDelay: '0.8s', cursor: 'pointer' }}>
                   PROJECTS
                 </a>
-      </li> */}
-      {/* <li className="nav-item">
+      </li>
+      <li className="nav-item">
                 <a href="#careers" className={`nav-link mt-3 mt-lg-5 fade-in ${props.activeLink === 'careers' ? 'active' : ''}`} style={{ animationDelay: '1s', cursor: 'pointer' }}>
-                  CAREER
+                  EXPERIENCE
                 </a>
-      </li> */}
+      </li>
                 <li className="nav-item">
                 <a href="#contact" className={`nav-link mt-3 mt-lg-5 fade-in ${props.activeLink === 'contact' ? 'active' : ''}`} style={{ animationDelay: '1.2s', cursor: 'pointer' }}>
                   CONTACT

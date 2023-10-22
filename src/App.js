@@ -8,15 +8,33 @@ import Education from './components/education';
 import Projects from './components/projects';
 import Career from './components/career';
 import Contact from './components/contact';
+import projImg1 from '../src/assets/project-images/ecom.png'
+import projImg2 from '../src/assets/project-images/portfolio.png'
+import projImg3 from '../src/assets/project-images/weather.png'
+
 
 const projects = [
-  // {
-  //   id: 2,
-  //   name: 'Portfolio Website',
-  //   image: projImg2,
-  //   description: 'My Portfolio Website',
-  //   link: 'http://proud-water-0c81c2b10.2.azurestaticapps.net'
-  // }
+  {
+    id: 1,
+    name: 'KSE market',
+    image: projImg1,
+    description: 'Kse market ecommerce site',
+    link: 'https://kumar-ecom.vercel.app/'
+  },
+  {
+    id: 2,
+    name: 'Portfolio Website',
+    image: projImg2,
+    description: 'My Portfolio Website',
+    link: 'https://portfolio-kumarkse.vercel.app/'
+  },
+  {
+    id: 3,
+    name: 'Ma-weather',
+    image: projImg3,
+    description: 'Enter the city and get the weather',
+    link: 'https://tenki-phi.vercel.app/'
+  }
 ];
 
 const careers = [
@@ -25,11 +43,23 @@ const careers = [
     job_title: 'Data Science Intern',
     company: 'CODSOFT',
     description: [
-      'Teaching and Training of Machine Learning Models',
+      'Data collection,cleaning & Interpretation. ',
+      'Exposure to Data Science tools like Jupyter',
+      'Training ML model.'
     ],
-    from: 'July 2023',
-    to: ' August 2023',
-  }
+    from: '1 August 2023',
+    to: ' 31 August 2023',
+  },
+  {
+    id: 2,
+    job_title: 'CP Member',
+    company: 'ACM ICPC',
+    description: [
+      'Part of competetive programming sessions and mentoring'
+    ],
+    from: '20 August 2022',
+    to: ' present',
+  },
 ];
 
 function App() {
@@ -84,8 +114,8 @@ function App() {
       <Home/>
       <About/>
       <Education/>
-      {/* <Projects projects={projects} /> */}
-      {/* <Career careers={careers}/> */}
+      <Projects projects={projects} />
+      <Career careers={careers}/>
       <Contact/>
     </div>
   );

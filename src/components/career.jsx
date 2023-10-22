@@ -75,6 +75,7 @@ const Career = ({careers}) => {
                     .hi{
                         margin-left: -5%;
                         color: rgb(0, 172, 172,0.7);
+                        font-size: calc(0.7rem + 0.6vw);
                     }
                     .divider{
                         border: 1px solid rgb(0, 172, 172,0.1);

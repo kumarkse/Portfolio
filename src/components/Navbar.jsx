@@ -19,12 +19,12 @@ const Navbar = (props) => {
                     <a href="#education" className={`nav-link ${props.activeLink === 'education' ? 'active' : ''}`}>Education</a>
                 </li>
 
-                {/* <li className="nav-item me-5">
+                <li className="nav-item me-5">
                 <a href="#projects" className={`nav-link ${props.activeLink === 'projects' ? 'active' : ''}`}>Projects</a>
-      </li> */}
-      {/* <li className="nav-item me-5">
-                <a href="#careers" className={`nav-link ${props.activeLink === 'careers' ? 'active' : ''}`}>Career</a>
-      </li> */}
+      </li>
+      <li className="nav-item me-5">
+                <a href="#careers" className={`nav-link ${props.activeLink === 'careers' ? 'active' : ''}`}>Experience</a>
+      </li>
                 <li className="nav-item me-5">
                 <a href="#contact" className={`nav-link ${props.activeLink === 'contact' ? 'active' : ''}`}>Contact</a>
                 </li>
