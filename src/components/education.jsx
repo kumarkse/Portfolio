@@ -127,7 +127,7 @@ const Education = () => {
                         <div className="col d-flex justify-content-end">
                         <p className="me-2" style={{color: 'rgb(0,180,180)'}}>Stream</p>
                         <p style={{color: 'rgb(0,180,180)'}}>:</p>
-                        <p className="ms-4">Electronics & Communication Engineering (CSE)</p>
+                        <p className="ms-4">Electronics & Communication Engineering (ECE)</p>
                         </div>
                         </div>
                         <div className="mt-4 p-3 p-xl-4 para d-flex">
