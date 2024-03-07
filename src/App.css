@@ -74,7 +74,7 @@ body{
 
 li{
   font-size: calc(0.7rem + 0.5vw);
-  animation: appear 3s;
+  animation: appear 1s;
 }
 
 @keyframes slide-left {

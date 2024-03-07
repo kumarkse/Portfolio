@@ -9,24 +9,24 @@ import Projects from './components/projects';
 import Career from './components/career';
 import Contact from './components/contact';
 import projImg1 from '../src/assets/project-images/ecom.png'
-import projImg2 from '../src/assets/project-images/portfolio.png'
+import projImg2 from './assets/project-images/proj.png'
 import projImg3 from '../src/assets/project-images/weather.png'
 
 
 const projects = [
   {
     id: 1,
+    name: 'SymptoScan',
+    image: projImg2,
+    description: 'Predict your Disease using Symptoms',
+    link: 'https://github.com/kumarkse/SymptoScan'
+  },
+  {
+    id: 2,
     name: 'KSE market',
     image: projImg1,
     description: 'Kse market ecommerce site',
     link: 'https://kumar-ecom.vercel.app/'
-  },
-  {
-    id: 2,
-    name: 'Portfolio Website',
-    image: projImg2,
-    description: 'My Portfolio Website',
-    link: 'https://portfolio-kumarkse.vercel.app/'
   },
   {
     id: 3,
@@ -49,6 +49,16 @@ const careers = [
     ],
     from: '1 August 2023',
     to: ' 31 August 2023',
+  },
+  {
+    id:3,
+    job_title: 'Team Lead',
+    company: 'IIC Ministry of education',
+    description: [
+      'Part of competetive programming sessions and mentoring'
+    ],
+    from: '10 February 2024',
+    to: ' present',
   },
   {
     id: 2,

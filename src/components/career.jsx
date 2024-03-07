@@ -161,7 +161,7 @@ const Career = ({careers}) => {
         )}
                     </div>
                     </div>
-                    <p className={`hello hello2 position-absolute ${helloRotate ? 'rotate-0 rotate1 w-100 position-sticky' : ''}`}>- Career</p>
+                    <p className={`hello hello2 position-absolute ${helloRotate ? 'rotate-0 rotate1 w-100 position-sticky' : ''}`}></p>
                     </div>
                )}
             </section>

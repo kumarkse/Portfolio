@@ -10,7 +10,7 @@ const DropdownMenu = (props) => {
                 {`
                   .fade-in {
                     opacity: 0;
-                    animation: fade-in 10s ease forwards;
+                    animation: fade-in 0.1s ease forwards;
                   }
                   
                   @keyframes fade-in {
@@ -65,7 +65,7 @@ const DropdownMenu = (props) => {
                 </a>
       </li>
                 <li className="nav-item">
-                <a href="#contact" className={`nav-link mt-3 mt-lg-5 fade-in ${props.activeLink === 'contact' ? 'active' : ''}`} style={{ animationDelay: '1.2s', cursor: 'pointer' }}>
+                <a href="#contact" className={`nav-link mt-3 mt-lg-5 fade-in ${props.activeLink === 'contact' ? 'active' : ''}`} style={{ animationDelay: '0.02s', cursor: 'pointer' }}>
                   CONTACT
                 </a>
                 </li>

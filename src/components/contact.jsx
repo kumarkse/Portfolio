@@ -20,7 +20,7 @@ const redIcon = new L.Icon({
   popupAnchor: [1, -34],
   shadowSize: [41, 41]
 });
-
+//-----------------------------------------------------------------------------------------------------------------------
 const Contact = () => {
   const form = useRef();
 
@@ -34,7 +34,7 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitted(true);
 
-    emailjs.sendForm("service_nenie5m", "template_j5p15ui", form.current, "aYooavmy68CjGU1L-") 
+    emailjs.sendForm("service_nenie5m", "template_f7y2o6j", form.current, "4FFBVxIvTG2dfmQJv") 
     .then((result) => {
       console.log(result.text);
   }, (error) => {
@@ -192,21 +192,21 @@ useEffect(() => {
                 >
                   <div className="form-group d-flex flex-column w-100">
                     <label htmlFor="name">Name:</label>
-                    <input type="text" id="name" name="name" required />
+                    <input type="text" id="name" name="user_name" required />
                   </div>
                   <div className="form-group d-flex flex-column w-100">
                     <label htmlFor="email">Email:</label>
-                    <input type="email" id="email" name="email" required />
+                    <input type="email" id="email" name="user_email" required />
                   </div>
                   <div className="form-group d-flex flex-column w-100">
                     <label htmlFor="subject">Subject:</label>
-                    <input type="text" id="subject" name="subject" required />
+                    <input type="text" id="subject" name="user_subject" required />
                   </div>
                   <div className="form-group d-flex flex-column w-100">
                     <label htmlFor="message">Message:</label>
                     <textarea
                       id="message"
-                      name="message"
+                      name="user_message"
                       rows="5"
                       required
                     ></textarea>
@@ -250,7 +250,6 @@ useEffect(() => {
       <img src={mail} className="me-3" width={45} height={45} alt='email' onClick={handleEmailClick} style={{cursor: 'pointer'}}/>
       <a href="https://www.linkedin.com/in/abhishektiwari2100/" style={{cursor: 'pointer'}}><img src={linkedin} alt='linkedin' className="me-3" width={45} height={45}/></a>
       <a href="https://github.com/kumarkse" style={{cursor: 'pointer'}}><img src={github} alt='github' className="me-3" width={45} height={45}/></a>
-      {/* <a href="https://discordapp.com/users/sia#4172" style={{cursor: 'pointer'}}><img src={discord} alt='discord' className="me-3" width={45} height={45}/></a> */}
       <a href="javascript:;" style={{cursor: 'pointer'}}><img src={fb} alt='facebook' className="me-3" width={45} height={45}/></a>
       <a href="https://www.instagram.com/_kumaar_01_/" style={{cursor: 'pointer'}}><img src={instagram} alt='instagram' width={45} height={45}/></a>
     </div>
