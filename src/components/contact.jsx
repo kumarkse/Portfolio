@@ -6,7 +6,6 @@ import fb from '../assets/icons/facebook.png';
 import mail from '../assets/icons/email.png';
 import linkedin from '../assets/icons/linkedin.png';
 import github from '../assets/icons/github.png';
-import discord from '../assets/icons/discord.png';
 import instagram from '../assets/icons/instagram.png';
 import ToggleButton from 'react-toggle-button'
 import emailjs from '@emailjs/browser';
