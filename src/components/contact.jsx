@@ -27,7 +27,7 @@ const Contact = () => {
   const [showBgImage, setShowBgImage] = useState(false);
   const [showContact, setShowContact] = useState(false);
   
-  const apiKey = process.env.REACT_APP_API_KEY;
+  const apiKey = '961b2be7-5713-46c9-b7a0-28d17b7b51cb';
 
   const handleSubmit = (e) => {
     e.preventDefault();

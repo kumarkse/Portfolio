@@ -9,17 +9,33 @@ import Projects from './components/projects';
 import Career from './components/career';
 import Contact from './components/contact';
 import projImg1 from '../src/assets/project-images/ecom.png'
-import projImg2 from './assets/project-images/proj.png'
+import symptoscan from '../src/assets/project-images/symptoscan.png'
 import projImg3 from '../src/assets/project-images/weather.png'
+import maskdtect from '../src/assets/project-images/maskdtect.png'
+import moviemate from '../src/assets/project-images/moviemate.png'
 
 
 const projects = [
   {
     id: 1,
-    name: 'SymptoScan',
-    image: projImg2,
+    name: 'moviemate',
+    image: moviemate,
     description: 'Predict your Disease using Symptoms',
-    link: 'https://github.com/kumarkse/SymptoScan'
+    link: 'https://movie--mate.streamlit.app/'
+  },
+  {
+    id: 4,
+    name: 'MaskDtect',
+    image: maskdtect,
+    description: 'Predicts whether mask is worn',
+    link: 'https://maskdtect-kse.streamlit.app/'
+  },
+  {
+    id: 5,
+    name: 'SymptoScan',
+    image: symptoscan,
+    description: 'Predict your Disease using Symptoms',
+    link: 'https://symptoscan-by-kse.streamlit.app/'
   },
   {
     id: 2,
@@ -71,7 +87,7 @@ const careers = [
     to: ' present',
   },
 ];
-
+<Career />
 function App() {
   const [page, setPage] = useState('home');
 

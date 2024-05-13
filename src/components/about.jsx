@@ -4,19 +4,19 @@ import Skills from "./skills";
 const progressesData = [
     { skill: "C++", percent: 9 },
     { skill: "Python", percent: 9 },
-    { skill: "React", percent: 8.5 },
-    { skill: "MongoDB / SQL", percent: 8.5 },
+    { skill: "React", percent: 8 },
+    { skill: "MongoDB / SQL", percent: 8 },
     { skill: "DSA", percent: 9 },
-    { skill: "ML", percent: 8.5 },
+    { skill: "ML", percent: 8 },
     { skill: "Excel", percent: 8 },
-    { skill: "Power Bi", percent: 9 },
+    { skill: "DL", percent: 8 },
     { skill: "Tableau", percent: 8 },
   ];
   
 
 const progressesData2 = [
-    { skill: "Equity trading", percent: 8 },
-    { skill: "Derivative trading", percent: 9.5 },
+    { skill: "Equity trading", percent: 9 },
+    { skill: "Derivative trading", percent: 8 },
     { skill: "Investment", percent: 9 }
   ];
 
@@ -102,7 +102,7 @@ const About = () => {
                     <div className="divider mt-lg-5 mb-lg-5"></div>
                     <p className="mt-4 p-3 p-xl-4 para">I am Kumar Abhishek from Ghaziabad, India.</p>
                     <div className="divider mt-lg-5 mb-lg-5"></div>
-                    <p className="mt-4 p-3 p-xl-4 para">I am a senior undergraduate, currently pursuing B.Tech in Computer Science and Engineering from GGSIPU USICT Delhi , INDIA.</p>
+                    <p className="mt-4 p-3 p-xl-4 para">I am a final-year undergraduate, currently pursuing B.Tech in Computer Science and Engineering from GGSIPU USICT Delhi , INDIA.</p>
                     <div className="divider mt-lg-5 mb-lg-5"></div>
                     <p className="mt-4 p-3 p-xl-4 para">I am determined at gaining both professional and student experiences in some of the most renowned product-based companies like Google, Amazon, Microsoft-EY and Goldman Sachs, and want to work with the latest technologies.</p>
                     <div className="divider mt-lg-5 mb-lg-5"></div>
