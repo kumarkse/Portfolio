@@ -13,21 +13,29 @@ import symptoscan from '../src/assets/project-images/symptoscan.png'
 import projImg3 from '../src/assets/project-images/weather.png'
 import maskdtect from '../src/assets/project-images/maskdtect.png'
 import moviemate from '../src/assets/project-images/moviemate.png'
+import tunegenie from '../src/assets/project-images/tunegenie.png'
 
 
 const projects = [
   {
+    id: 6,
+    name: 'TuneGenie',
+    image: tunegenie,
+    description: 'Generates a melody',
+    link: 'https://music-gen.streamlit.app/'
+  },
+  {
     id: 1,
     name: 'moviemate',
     image: moviemate,
-    description: 'Predict your Disease using Symptoms',
+    description: 'Movie Recommender System',
     link: 'https://movie--mate.streamlit.app/'
   },
   {
     id: 4,
     name: 'MaskDtect',
     image: maskdtect,
-    description: 'Predicts whether mask is worn',
+    description: 'Detects whether mask is worn',
     link: 'https://maskdtect-kse.streamlit.app/'
   },
   {
