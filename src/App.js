@@ -14,9 +14,17 @@ import projImg3 from '../src/assets/project-images/weather.png'
 import maskdtect from '../src/assets/project-images/maskdtect.png'
 import moviemate from '../src/assets/project-images/moviemate.png'
 import tunegenie from '../src/assets/project-images/tunegenie.png'
+import proctorly from '../src/assets/project-images/proctorly.png'
 
 
 const projects = [
+  {
+    id: 7,
+    name: 'ProctorLy',
+    image: proctorly,
+    description: 'Online Proctor',
+    link: 'https://github.com/kumarkse/Proctorly'
+  },
   {
     id: 6,
     name: 'TuneGenie',
