@@ -72,35 +72,25 @@ const projects = [
 const careers = [
   {
     id: 1,
-    job_title: 'Data Science Intern',
-    company: 'CODSOFT',
+    job_title: 'Data Engineer',
+    company: 'Tata Consultancy Services',
     description: [
-      'Data collection,cleaning & Interpretation. ',
-      'Exposure to Data Science tools like Jupyter',
-      'Training ML model.'
+      'Designed and built scalable ETL pipelines on Databricks using PySpark and Spark SQL for large-scale SAP BW data migration.',
+      'Developed and optimized data transformation workflows, writing efficient DDL/DML scripts and orchestrating jobs using Databricks Workflows.'
     ],
-    from: '1 August 2023',
-    to: ' 31 August 2023',
-  },
-  {
-    id:3,
-    job_title: 'Team Lead',
-    company: 'IIC Ministry of education',
-    description: [
-      'Part of competetive programming sessions and mentoring'
-    ],
-    from: '10 February 2024',
-    to: ' present',
+    from: 'July 2025',
+    to: ' Present',
   },
   {
     id: 2,
-    job_title: 'CP Member',
-    company: 'ACM ICPC',
+    job_title: 'Intern, Backend Developer',
+    company: 'Prodigal AI ',
     description: [
-      'Part of competetive programming sessions and mentoring'
+      'Designed and built an automated news-driven crypto trading pipeline that ingests market-moving signals from web sources and indicators, triggering downstream workflows for decisioning and execution.',
+      'Developed data ingestion and scraping pipelines to collect real-time news and price data, performing transformation and enrichment (summarization using Unstructured framework) before storing in PostgreSQL (DigitalOcean).'
     ],
-    from: '20 August 2022',
-    to: ' present',
+    from: 'Jan 2025',
+    to: ' June 2025',
   },
 ];
 <Career />

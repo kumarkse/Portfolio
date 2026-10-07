@@ -112,7 +112,7 @@ const Home = () => {
           <p className="overview text-center">
             COMPUTER SCIENCE AND ENGINEERING
             <br />
-            UNDERGRADUATE STUDENT
+            GRADUATE
           </p>
         </div>
         {!helloRotate && (

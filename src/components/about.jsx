@@ -102,9 +102,9 @@ const About = () => {
                     <div className="divider mt-lg-5 mb-lg-5"></div>
                     <p className="mt-4 p-3 p-xl-4 para">I am Kumar Abhishek from Ghaziabad, India.</p>
                     <div className="divider mt-lg-5 mb-lg-5"></div>
-                    <p className="mt-4 p-3 p-xl-4 para">I am a final-year undergraduate, currently pursuing B.Tech in Computer Science and Engineering from GGSIPU USICT Delhi , INDIA.</p>
+                    <p className="mt-4 p-3 p-xl-4 para">I am a Fresher, holding B.Tech in Computer Science and Engineering from GGSIPU USICT Delhi , INDIA.</p>
                     <div className="divider mt-lg-5 mb-lg-5"></div>
-                    <p className="mt-4 p-3 p-xl-4 para">I am determined at gaining both professional and student experiences in some of the most renowned product-based companies like Google, Amazon, Microsoft-EY and Goldman Sachs, and want to work with the latest technologies.</p>
+                    <p className="mt-4 p-3 p-xl-4 para">I am determined at gaining professional experiences in some of the most renowned product-based companies like Google, Amazon, Microsoft-EY and Goldman Sachs, and want to work with the latest technologies.</p>
                     <div className="divider mt-lg-5 mb-lg-5"></div>
                     <p className="mt-4 p-3 p-xl-4 para">Previously, I have gone through frontend - web development with technologies like react whereas , now i am focused on the field of Data science and Problem Solving.</p>
                     <div className="divider mt-lg-5 mb-lg-5"></div>
