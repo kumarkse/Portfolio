@@ -71,12 +71,6 @@ useEffect(() => {
   };
 
   const handleToggle = () => {
-    const contact = document.getElementById('contact');
-    const contactDiv = document.getElementsByClassName('contact-div')[0];
-    const map = document.getElementsByClassName('map')[0];
-    const social = document.getElementsByClassName('social')[0];
-    const resume = document.getElementsByClassName('resume')[0];
-
     if (showBgImage) {
       setShowBgImage(false);
       window.scrollTo(0, 0);
@@ -249,7 +243,7 @@ useEffect(() => {
       <img src={mail} className="me-3" width={45} height={45} alt='email' onClick={handleEmailClick} style={{cursor: 'pointer'}}/>
       <a href="https://www.linkedin.com/in/abhishektiwari2100/" style={{cursor: 'pointer'}}><img src={linkedin} alt='linkedin' className="me-3" width={45} height={45}/></a>
       <a href="https://github.com/kumarkse" style={{cursor: 'pointer'}}><img src={github} alt='github' className="me-3" width={45} height={45}/></a>
-      <a href="javascript:;" style={{cursor: 'pointer'}}><img src={fb} alt='facebook' className="me-3" width={45} height={45}/></a>
+      <a href="https://www.facebook.com/" style={{cursor: 'pointer'}}><img src={fb} alt='facebook' className="me-3" width={45} height={45}/></a>
       <a href="https://www.instagram.com/_kumaar_01_/" style={{cursor: 'pointer'}}><img src={instagram} alt='instagram' width={45} height={45}/></a>
     </div>
   </div>
